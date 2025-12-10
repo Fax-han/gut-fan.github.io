@@ -18,7 +18,7 @@
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/79751950?v=4">
 <title>测试</title>
 
-
+<link href='https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap' rel='stylesheet'>
 
 </head>
 <style>
@@ -43,7 +43,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 }
 
 </style>
-body { background-image: linear-gradient(180deg, #0d1117 0%, #161b22 100%); } .SideNav-item { background-color: rgba(22, 27, 34, 0.6) !important; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; transition: all 0.3s ease; } .SideNav-item:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); border-color: rgba(88, 166, 255, 0.4); } .avatar { border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.1); } img { border-radius: 8px; }
+/* 全局字体 */ body { font-family: 'JetBrains Mono', 'Segoe UI', sans-serif !important; } /* 极光背景动画 */ @keyframes aurora { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } } body { background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #000000); background-size: 400% 400%; animation: aurora 15s ease infinite; } /* 卡片进场动画 */ @keyframes slideUp { from { opacity: 0; transform: translateY(40px); } to { opacity: 1; transform: translateY(0); } } .SideNav-item { animation: slideUp 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) forwards; background: rgba(20, 20, 30, 0.6) !important; backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 16px; margin-bottom: 20px; transition: all 0.3s ease; } /* RGB 悬停流光特效 */ .SideNav-item:hover { transform: translateY(-5px) scale(1.02); box-shadow: 0 0 20px rgba(88, 166, 255, 0.4), 0 0 10px rgba(188, 76, 0, 0.2); border-color: #58a6ff; background: rgba(30, 30, 50, 0.8) !important; } /* 头像呼吸灯 */ @keyframes breathe { 0% { box-shadow: 0 0 5px rgba(88, 166, 255, 0.5); } 50% { box-shadow: 0 0 20px rgba(88, 166, 255, 0.9); } 100% { box-shadow: 0 0 5px rgba(88, 166, 255, 0.5); } } .avatar { border-radius: 50%; border: 2px solid rgba(255,255,255,0.2); animation: breathe 4s infinite ease-in-out; transition: transform 0.6s; } .avatar:hover { transform: rotate(360deg); } .blogTitle { font-weight: 700; background: -webkit-linear-gradient(45deg, #eee, #58a6ff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
 
 
 
@@ -80,7 +80,7 @@ body { background-image: linear-gradient(180deg, #0d1117 0%, #161b22 100%); } .S
 <div class="comments" id="comments"></div>
 
 </div>
-    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://blog.fanhhh.de5.net">樊筱晗的blog</a></div>
+    <div id="footer"><div id="footer1">Copyright © <span id="copyrightYear"></span> <a href="https://blog.fanhhh.de5.net">Fanhhh's IoT World</a></div>
 <div id="footer2">
     <span id="runday"></span><span>Powered by <a href="https://meekdai.com/Gmeek.html" target="_blank">Gmeek</a></span>
 </div>
